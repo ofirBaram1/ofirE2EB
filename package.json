@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wdio": "wdio run ./wdio.conf.ts"
+    "wdio": "wdio run ./wdio.conf.ts",
+    "runMyTest": "npx wdio wdio.conf.js",
+    "debugMyTest": "node --inspect-brk ./node_modules/.bin/wdio wdio.conf.js"
+
+
   },
   "repository": {
     "type": "git",
